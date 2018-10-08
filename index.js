@@ -19,11 +19,17 @@ switch (args[0]) {
       // change directory to service
       'cd /opt/app',
       // pull the latest service code
-      'git pull origin master',
+      'git -q pull origin master',
+      // update service modules
+      'npm -q install',
+      // enter our service screen
+      'screen -r',
       // kill the service
-      'kill -s SIGTERM node',
+      'killall -q node',
       // start the service 
-      'HOST=0.0.0.0 POST=80 node ./index.js run',
+      'HOST=0.0.0.0 PORT=80 node ./index.js run &',
+      // exit our service screen
+      'screen -d',
     ];
     const deploy = spawn(
       'ssh',
