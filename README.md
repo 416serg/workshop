@@ -23,10 +23,3 @@ Great! You should be able to install the Windows Subsystem for Linux:
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-
-Basic process management
-SSH
-Deploying application
-
- - ps -a
- - SIGTERM
