@@ -7,6 +7,7 @@
    - What operating system folks use
    - Who if anyone, set themselves up with a digital ocean account?
    - Ask who is familiar with commands like `dir` or `cd`
+   - Ask who is familiar with commands `git`, and `npm`, and `node`
  - State objective*
  - Begin with running a node application
    - What is happening?
@@ -16,6 +17,7 @@
    - What tools do they use to debug their applcation?
  - Talk a bit about processes
  - Introduce `ps`
+ - Introduce `man`
  - (OPTIONAL) Introduce `strace`
  - (OPTIONAL) Talk about kernel and user space
  - Talk a bit about networking, ask if folks know how the internet works
