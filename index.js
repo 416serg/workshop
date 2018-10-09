@@ -1,5 +1,5 @@
 const path = require('path');
-const { spawn, execSync, exec } = require('child_process');
+const { execSync, exec } = require('child_process');
 
 // Process Snapshot 
 console.log('INFO', execSync('ps', { encoding: 'ascii' }));
